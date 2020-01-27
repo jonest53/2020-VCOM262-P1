@@ -1,0 +1,147 @@
+@font-face {
+    font-family: 'edoregular';
+    src: url('fonts/edo-webfont.woff2') format('woff2'),
+         url('fonts/edo-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'archivo_narrowregular';
+    src: url('fonts/archivonarrow-regular-webfont.woff2') format('woff2'),
+         url('fonts/archivonarrow-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.container {
+	background-color: grey;
+	background-position: center;
+	background-repeat: no-repeat;
+	/* display: grid;
+  grid-gap: 5px;
+  grid-template-columns: repeat(16, 1fr);
+  max-width: 1000px;
+  overflow: auto; */
+}
+
+ol {
+  font-family: 'archivo_narrowregular', Times, Arial, serif;
+  list-style-type: none;
+  line-height: 2.0;
+  margin-top: 60px;
+}
+
+h1 {
+	font-family: 'edoregular', Times, Arial, serif;
+	line-height: 1;
+	text-align: center;
+	font-size: 100px;
+	color: #000000;
+	text-shadow: 3px 3px #FFFFFF;
+}
+
+h2 {
+	font-family: 'edoregular', Times, Arial, serif;
+	grid-column: 1 / 5;
+	padding-top: 150px;
+	padding-bottom: 25px;
+	margin-left: 775px;
+	font-size: 75px;
+	color: #000000;
+}
+
+h3 {
+	font-family: 'edoregular', Times, Arial, serif;
+	grid-column: 1 / 5;
+	padding-top: 150px;
+	padding-bottom: 25px;
+	margin-left: 775px;
+	font-size: 45px;
+	color: #000000;
+}
+
+footer {
+	position: relative;
+	height: 50px;
+	grid-column: 1 / -1;
+	text-align: center;
+	margin-top: 100px;
+	color: #FFFFFF;
+}
+
+.believing {
+	width: 900px;
+	margin-top: -115px;
+	margin-left: 1000px;
+	margin-bottom: 100px;
+}
+
+.historical {
+	float: right;
+	margin-right: 800px;
+	margin-top: -1840px;
+}
+
+.habits {
+	margin-left: 1450px;
+}
+
+.pages {
+  font-family: 'kingthings_trypewriter_2Rg', Times, Arial, serif;
+	margin-left: 50px;
+	padding-top: 60px;
+	grid-column: 1 / -1;
+}
+
+p {
+	font-family: 'archivo_narrowregular', Times, Arial, serif;
+	width: 1000px;
+	font-size: 25px;
+	text-indent: 75px;
+	line-height: 1.8;
+	margin-left: 775px;
+	margin-right: 50px;
+	color: #000;
+	grid-column: 1 / 4;
+}
+
+ul {
+	font-family: 'edoregular', Times, Arial, serif;
+	font-size: 40px;
+	align: center;
+	margin-left: 775px;
+	padding: 0px;
+	list-style: none;
+	color: white;
+}
+
+ul li {
+	float: left;
+	width: 300px;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	opacity: .8;
+	background-color: #000000;
+}
+
+ul li a	{
+	text-decoration: none;
+	color: #FFFFFF;
+	display: block;
+}
+
+ul li a:hover {
+	background-color: #808080;
+}
+
+ul li ul li	{
+	display: none;
+}
+
+ul li:hover ul li {
+	display: block;
+}
