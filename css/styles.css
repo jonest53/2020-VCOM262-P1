@@ -17,8 +17,12 @@
 }
 
 .container {
+  background-color: orange;
 	background-position: center;
 	background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .spacing {
@@ -135,7 +139,6 @@ h2 {
 
 h3 {
 	font-family: 'edoregular', Times, Arial, serif;
-	grid-column: 1 / 5;
 	padding-top: 150px;
 	padding-bottom: 25px;
 	margin-left: 775px;
@@ -189,9 +192,9 @@ ul {
 	font-size: 40px;
   text-align: center;
 	list-style: none;
-	color: white;
   margin-left: auto;
   margin-right: auto;
+	color: white;
   display: inline;
 }
 
