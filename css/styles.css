@@ -17,29 +17,101 @@
 }
 
 .container {
-	background-color: grey;
 	background-position: center;
 	background-repeat: no-repeat;
-	/* display: grid;
-  grid-gap: 5px;
-  grid-template-columns: repeat(16, 1fr);
-  max-width: 1000px;
-  overflow: auto; */
+}
+
+.spacing {
+  margin-bottom: 500px;
+}
+
+#visithead {
+  margin-top: 500px;
 }
 
 #museum {
-  margin-top: 100px;
-  margin-left: 875px;
+  margin-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
   margin-bottom: 0px;
+  display: inline-block;
+  width: 2000px;
+  height: auto;
+}
+
+#grand {
+  height: auto;
+  width: 1100px;
+  display: inline-block;
+  margin-top: -550px;
+  margin-right: 925px;
+  float: right;
+}
+
+#logo {
+  display: inline-block;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+#sign {
+  height: auto;
+  width: 1100px;
+  display: inline-block;
+  margin-top: -550px;
+  margin-right: 925px;
+  float: right;
+}
+
+#treasures {
+  height: auto;
+  width: 600px;
+  display: inline-block;
+  margin-top: -850px;
+  margin-right: 1075px;
+  float: right;
+}
+
+#children {
+  height: auto;
+  width: 1300px;
+  display: inline-block;
+  margin-top: -1025px;
+  margin-right: 700px;
+  margin-bottom: 150px;
+  float: right;
+}
+
+#chef {
+  width: auto;
+  height: 1100px;
+  display: inline-block;
+  margin-top: -1025px;
+  margin-left: 100px;
+  margin-right: 975px;
+  float: right;
+}
+
+#stem {
+  width: 1300px;
+  height: auto;
+  display: inline-block;
+  margin-top: -850px;
+  margin-right: 700px;
+  float: right;
 }
 
 ol {
   font-family: 'archivo_narrowregular', Times, Arial, serif;
   font-size: 1.8em;
-  list-style-type: circle;
+  list-style-type: none;
   line-height: 2.0;
-  margin-top: 60px;
-  margin-left: 800px;
+}
+
+.listing {
+  list-style: square;
+  margin-left: 775px;
 }
 
 h1 {
@@ -48,7 +120,6 @@ h1 {
 	text-align: center;
 	font-size: 100px;
 	color: #000000;
-	text-shadow: 3px 3px #FFFFFF;
 }
 
 h2 {
@@ -72,12 +143,25 @@ h3 {
 	color: #000000;
 }
 
+form {
+  display: block;
+}
+
+input[type=text], select, textarea {
+  width: 20%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
 footer {
-	position: relative;
 	height: 50px;
-	grid-column: 1 / -1;
 	text-align: center;
-	margin-top: 100px;
 	color: #FFFFFF;
 }
 
@@ -103,11 +187,12 @@ p {
 ul {
 	font-family: 'edoregular', Times, Arial, serif;
 	font-size: 40px;
-	align: center;
-	margin-left: 775px;
-	padding: 0px;
+  text-align: center;
 	list-style: none;
 	color: white;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline;
 }
 
 ul li {
@@ -115,7 +200,6 @@ ul li {
 	width: 300px;
 	height: 100px;
 	line-height: 100px;
-	text-align: center;
 	opacity: .8;
 	background-color: #000000;
 }
