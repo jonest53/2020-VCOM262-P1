@@ -15,6 +15,54 @@
     font-style: normal;
 
 }
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
 
 .container {
   background-color: orange;
@@ -26,8 +74,20 @@
 }
 
 .spacing {
-  margin-bottom: 500px;
+  font-family: 'archivo_narrowregular', Times, Arial, serif;
+	width: 90%;
+	font-size: 25px;
+	text-indent: 75px;
+	line-height: 1.8;
+	color: #000;
 }
+
+.group1p1 {
+  block: inline;
+  height: 500px;
+  margin-bottom: 30px;
+}
+
 
 #visithead {
   margin-top: 500px;
@@ -69,40 +129,30 @@
 }
 
 #treasures {
-  height: auto;
-  width: 600px;
-  display: inline-block;
-  margin-top: -850px;
-  margin-right: 1075px;
+  width: 400px;
+  height: 500px;
+
   float: right;
 }
 
 #children {
   height: auto;
-  width: 1300px;
+  width: 800px;
   display: inline-block;
-  margin-top: -1025px;
-  margin-right: 700px;
-  margin-bottom: 150px;
   float: right;
 }
 
 #chef {
   width: auto;
-  height: 1100px;
+  height: 700px;
   display: inline-block;
-  margin-top: -1025px;
-  margin-left: 100px;
-  margin-right: 975px;
   float: right;
 }
 
 #stem {
-  width: 1300px;
-  height: auto;
+  width: 800px;
+  height: 500px;
   display: inline-block;
-  margin-top: -850px;
-  margin-right: 700px;
   float: right;
 }
 
@@ -128,21 +178,17 @@ h1 {
 
 h2 {
 	font-family: 'edoregular', Times, Arial, serif;
-	grid-column: 1 / 5;
-	padding-top: 150px;
-	padding-bottom: 0px;
-  margin-top: 0px;
-	margin-left: 775px;
+	margin-left: 65px;
+  margin-bottom: 200px;
 	font-size: 75px;
 	color: #000000;
 }
 
 h3 {
 	font-family: 'edoregular', Times, Arial, serif;
-	padding-top: 150px;
-	padding-bottom: 25px;
-	margin-left: 775px;
 	font-size: 45px;
+  margin-left: 70px;
+  display: block;
 	color: #000000;
 }
 
@@ -176,15 +222,8 @@ footer {
 }
 
 p {
-	font-family: 'archivo_narrowregular', Times, Arial, serif;
-	width: 1000px;
-	font-size: 25px;
-	text-indent: 75px;
-	line-height: 1.8;
-	margin-left: 775px;
-	margin-right: 50px;
-	color: #000;
-	grid-column: 1 / 4;
+  width: 40%;
+  margin-left: 25px;
 }
 
 ul {
